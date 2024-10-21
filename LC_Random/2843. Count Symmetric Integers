@@ -5,7 +5,7 @@ class Solution
 
 
 {
-public:
+public:h
     int countSymmetricIntegers(int low, int high) {
 
 
