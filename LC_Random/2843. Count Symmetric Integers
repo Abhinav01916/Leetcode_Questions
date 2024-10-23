@@ -1,15 +1,35 @@
-#include<iostream>
+class Solution {
+public:
+     //  function to chek symmetry of numbers 
+       bool symmetry(int number)
+       {
+        if(number>10 && number<=99)  // condition 1
+        {
+            return number/10 == number%10; 
+        }
 
-class Solution 
+        else if(number>999 && number<=9999)  // condition 2
+        {
+            const int left = number/100;
+            const int right =number%100;
+            return (left/10 + left %10)== (right/10 + right%10);
+        }
+        return false ;
+       }
 
-
-dd
-{
-public:h
     int countSymmetricIntegers(int low, int high) {
-
-
-
         
+          int answer =0;
+
+        for(int number=low; number<=high; number++){
+            
+           if( symmetry(number))
+           {
+            answer++;
+           }
+         
+        }
+        return answer;
+
     }
 };
