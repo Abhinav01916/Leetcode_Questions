@@ -3,12 +3,12 @@ public:
      //  function to chek symmetry of numbers 
        bool symmetry(int number)
        {
-        if(number>10 && number<=99)  // condition 1
+        if(number>10 && number<=99)  //    condition 1
         {
             return number/10 == number%10; 
         }
 
-        else if(number>999 && number<=9999)  // condition  2
+        else if(number>999 && number<=9999)  //   condition  2
         {
             const int left = number/100;
             const int right =number%100;
