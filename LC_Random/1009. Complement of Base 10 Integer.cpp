@@ -3,7 +3,7 @@ public:
     int bitwiseComplement(int n) {
         int m=n;
         int mask = 0;
-        // creating mask for ~n
+         // creating mask for ~n
 
         if (n==0)
         {
