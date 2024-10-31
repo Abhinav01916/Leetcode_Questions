@@ -1,4 +1,4 @@
-class Solution {
+class Solution  {
 public:
      //  function to chek symmetry of numbers 
        bool symmetry(int number)
