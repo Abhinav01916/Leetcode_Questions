@@ -1,6 +1,6 @@
 class Solution  {
 public:
-    int bitwiseComplement(int n)  {
+    int bitwiseComplement(int n)   {
         int m=n;
         int mask = 0;
          // creating mask for ~n
