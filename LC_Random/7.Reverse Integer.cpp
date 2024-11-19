@@ -7,7 +7,7 @@ public:
       {  
        int digit=x%10;
 
-       if((answer>INT_MAX/10) || (answer<INT_MIN/10)) // edge case 
+       if((answer>INT_MAX/10) || (answer<INT_MIN/10))  // edge case 
        {
         return 0;
        }
