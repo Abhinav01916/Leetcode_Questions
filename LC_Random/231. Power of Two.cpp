@@ -10,7 +10,7 @@ public:
                  return true;
             }
 
-            if(ans<INT_MAX/2)
+            if(ans < INT_MAX/2)
             {
                 ans = ans*2;
             }
