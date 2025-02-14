@@ -1,5 +1,5 @@
 class  Solution 
-{
+ {
 public:
     bool isPowerOfTwo(int n) {
         int ans = 1;
