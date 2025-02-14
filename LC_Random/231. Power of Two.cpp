@@ -5,7 +5,7 @@ public:
         int ans = 1;
         for(int i=0; i<=30; i++)
         {
-            if(ans==n)
+            if(ans == n)
             {
                  return true;
             }
