@@ -1,6 +1,6 @@
 class  Solution 
  {
-public:
+public :
     bool isPowerOfTwo(int n) {
         int ans = 1;
         for(int i=0; i<=30; i++)
