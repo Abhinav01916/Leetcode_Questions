@@ -1,5 +1,5 @@
 class Solution  {
-public:
+public: 
      //   Function to chek symmetry of numbers 
        bool symmetry(int number)
        {
