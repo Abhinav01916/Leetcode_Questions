@@ -3,7 +3,7 @@ public:
      //    Function to chek symmetry of numbers 
        bool symmetry(int number)
        {
-        if(number>10 && number<=99)  //  condition 1
+        if(number>10 && number<=99)  //   condition 1
         {
             return number/10 == number%10; 
         }
