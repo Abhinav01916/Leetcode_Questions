@@ -1,5 +1,5 @@
 class Solution {
-public:
+public :
     int mySqrt(int x) {
         // implementing the concept of binary search here 
             if(x==0){
