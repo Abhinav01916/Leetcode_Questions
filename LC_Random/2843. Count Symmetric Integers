@@ -1,6 +1,6 @@
 class Solution  {
 public: 
-     //    Function to chek symmetry of numbers 
+     // Function to chek symmetry of numbers 
        bool symmetry(int number)
        {
         if(number>10 && number<=99)  //   condition 1
