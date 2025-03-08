@@ -1,7 +1,7 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        // implementing the concept of binary search here 
+        //implementing the concept of binary search here 
             if(x==0){
                 return 0;
             }
