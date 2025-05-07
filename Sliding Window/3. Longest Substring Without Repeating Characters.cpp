@@ -3,6 +3,8 @@ public:
     int lengthOfLongestSubstring(string s) {
         int n=s.size();
         int hash[256]={-1};
+        // use of fill method 
+        fill(hash, hash + 256, -1);
         int left =0,right=0;
         int max_length = 0;
         // condition
